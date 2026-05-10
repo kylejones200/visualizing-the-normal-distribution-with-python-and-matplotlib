@@ -1,18 +1,19 @@
+---
+author: "Kyle Jones"
+date_published: "March 27, 2024"
+date_exported_from_medium: "November 10, 2025"
+canonical_link: "https://medium.com/@kyle-t-jones/visualizing-the-normal-distribution-with-python-and-matplotlib-c501e3c594f8"
+---
+
 # Visualizing the normal distribution with Python and Matplotlib This is a simple python project to show how to simulate a normal
 distribution and plot it using Matplotlib.
 
 ### Visualizing the normal distribution with Python and Matplotlib
-This is a simple python project to show how to simulate a normal
-distribution and plot it using Matplotlib.
+This is a simple python project to show how to simulate a normal distribution and plot it using Matplotlib.
 
-Another early step in data analysis is the building graphical summaries
-of the data. These help us focus in on different attributes of the data.
-One of the most important tools for analyzing numerical data is a
-histogram.
+Another early step in data analysis is the building graphical summaries of the data. These help us focus in on different attributes of the data. One of the most important tools for analyzing numerical data is a histogram.
 
-A histogram is a type of bar chart that divides the total range of the
-data into a number of "bins" of equal width and then sorts the data into
-the bins based upon those ranges. It answers the questions about
+A histogram is a type of bar chart that divides the total range of the data into a number of "bins" of equal width and then sorts the data into the bins based upon those ranges. It answers the questions about
 
 1.  [center (Where do the numbers tend to concentrate?),]
 2.  [spread (How variable is the data?), and]
@@ -46,12 +47,10 @@ plot_norm_hist(s, mu, sigma, vline=True, title=True)
 ```
 
 
-<figcaption>A histogram showing 1,000 random values. The mean is 0 and
-the standard deviation is 1.</figcaption>
+<figcaption>A histogram showing 1,000 random values. The mean is 0 and the standard deviation is 1.</figcaption>
 
 
-We can see how the histogram "smooths" as we increase the number of
-simulated values from 1,000 to 100,000.
+We can see how the histogram "smooths" as we increase the number of simulated values from 1,000 to 100,000.
 
 ``` 
 mu, sigma = 50, 10 # mean and standard deviation
@@ -74,9 +73,7 @@ plt.show()
 ```
 
 
-Now we can apply some colors to draw attention to different parts of the
-data. I wouldn't use all of these in real life but I'm including them so
-you can see how they could be layered using `axvspan` .
+Now we can apply some colors to draw attention to different parts of the data. I wouldn't use all of these in real life but I'm including them so you can see how they could be layered using `axvspan` .
 
 ``` 
 mu, sigma = 0, 1 # mean and standard deviation
@@ -98,15 +95,11 @@ plt.show()
 ```
 
 
-Another graphical tool for numerical data is the box plot. This plot
-typically shows five numbers: the minimum value, the 25th percentile,
-the median, the 75th percentile, and the maximum value.
+Another graphical tool for numerical data is the box plot. This plot typically shows five numbers: the minimum value, the 25th percentile, the median, the 75th percentile, and the maximum value.
 
-The 25th percentile is the number such that (approximately) 25% of the
-data falls below it and (approximately) 75% of the data falls above it.
+The 25th percentile is the number such that (approximately) 25% of the data falls below it and (approximately) 75% of the data falls above it.
 
-Outliers, data values that are extremely small or large compared to the
-rest of the data, are typically plotted separately.
+Outliers, data values that are extremely small or large compared to the rest of the data, are typically plotted separately.
 
 ``` 
 fig1, ax1 = plt.subplots()
@@ -116,17 +109,6 @@ ax1.boxplot(s, showfliers=False, vert=False)
 
 
 ### Related Stories
-- [[Monte Carlo simulation using Black-Scholes for stock price in
-  Python](https://medium.com/@kylejones_47003/monte-carlo-simulation-using-black-scholes-for-stock-price-in-python-808574935473)]
-- [[Time Series Forecasting for Stock Prediction in
-  Python](https://medium.com/python-in-plain-english/time-series-forecasting-for-stock-prediction-in-python-710a88b7ccbb)]
-- [[Building a Recommendation Engine using Association Rules for item to
-  item similarity in
-  R](https://medium.com/@kylejones_47003/association-rules-for-item-to-time-personalization-in-r-9d6de7d6db8e)]
-::::::::By [Kyle Jones](https://medium.com/@kyle-t-jones) on
-[March 27, 2024](https://medium.com/p/c501e3c594f8).
-
-[Canonical
-link](https://medium.com/@kyle-t-jones/visualizing-the-normal-distribution-with-python-and-matplotlib-c501e3c594f8)
-
-Exported from [Medium](https://medium.com) on November 10, 2025.
+- [[Monte Carlo simulation using Black-Scholes for stock price in Python](https://medium.com/@kylejones_47003/monte-carlo-simulation-using-black-scholes-for-stock-price-in-python-808574935473)]
+- [[Time Series Forecasting for Stock Prediction in Python](https://medium.com/python-in-plain-english/time-series-forecasting-for-stock-prediction-in-python-710a88b7ccbb)]
+- [[Building a Recommendation Engine using Association Rules for item to item similarity in R](https://medium.com/@kylejones_47003/association-rules-for-item-to-time-personalization-in-r-9d6de7d6db8e)]
