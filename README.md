@@ -1,7 +1,7 @@
 # Visualizing the normal distribution with Python and Matplotlib
 
-**Published:** 2024-03-27
-**Medium:** [https://medium.com/@kyle-t-jones/visualizing-the-normal-distribution-with-python-and-matplotlib-c501e3c594f8](https://medium.com/@kyle-t-jones/visualizing-the-normal-distribution-with-python-and-matplotlib-c501e3c594f8)
+Published: 2024-03-27
+Medium: [https://medium.com/@kyle-t-jones/visualizing-the-normal-distribution-with-python-and-matplotlib-c501e3c594f8](https://medium.com/@kyle-t-jones/visualizing-the-normal-distribution-with-python-and-matplotlib-c501e3c594f8)
 
 ## About
 
