@@ -11,14 +11,7 @@ Another early step in data analysis is the building graphical summaries of the d
 
 A histogram is a type of bar chart that divides the total range of the data into a number of "bins" of equal width and then sorts the data into the bins based upon those ranges. It answers the questions about
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
